@@ -27,6 +27,10 @@ with header:
 
 		sales_data = pd.read_csv('./image/JVEC.csv')
 		st.write(sales_data.head())
+		st.write('Download the dataset here with one click')
+		
+		st.download_button(label = 'Download Dataset', data = sales_data.to_csv(), file_name = 'sales.csv', mime='csv', help = 'This allows you to download the complete dataset')
+		
 
 	with question:
 		st.header('Analysis Background')
