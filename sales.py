@@ -67,7 +67,10 @@ with header:
 
 		#for web: <iframe title="Report Section" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiZTNjOGI4YWItZTE3ZS00MDUwLTg4MGMtMzA3MDc5ZTliNGZjIiwidCI6IjhlOTVjNGQxLWRiZmQtNGFmNS1iODA2LTIwMGJkZDY2ZDJjZSJ9" frameborder="0" allowFullScreen="true"></iframe>
 		#for email: https://app.powerbi.com/view?r=eyJrIjoiZTNjOGI4YWItZTE3ZS00MDUwLTg4MGMtMzA3MDc5ZTliNGZjIiwidCI6IjhlOTVjNGQxLWRiZmQtNGFmNS1iODA2LTIwMGJkZDY2ZDJjZSJ9
-
+		
+		urlp = 'To view my portfolio and contact me, please click  [Portfolio](https://letters-of-michael.github.io/Oluwaseyi-Michael.github.io/)'
+		st.markdown(urlp,unsafe_allow_html=True)
+		
 	with copywright:
 		st.text('By Oluwaseyi Michael')
 
